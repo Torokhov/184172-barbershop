@@ -36,22 +36,33 @@
                 </ul>
             </nav>
             <aside class="filters">
-                <h2 class="filters-head">Производители:</h2>
-                <form class="filters-manufacturers" action="#" method="get">
-                    <input class="filters-manufacturers-check" id="baxter" type="checkbox" checked>
-                    <label class="filters-manufacturers-name" for="baxter">Baxter of California</label>
-                    <input class="filters-manufacturers-check" id="mr-natty" type="checkbox">
-                    <label class="filters-manufacturers-name" for="mr-natty">MR Natty</label>
-                    <input class="filters-manufacturers-check" id="suavecito" type="checkbox" checked>
-                    <label class="filters-manufacturers-name" for="suavecito">Suavecito</label>
-                    <input class="filters-manufacturers-check" id="malin+goetz" type="checkbox">
-                    <label class="filters-manufacturers-name" for="malin+goetz">Malin+Goetz</label>
-                    <input class="filters-manufacturers-check" id="murray's" type="checkbox">
-                    <label class="filters-manufacturers-name" for="murray's">Murray's</label>
-                    <input class="filters-manufacturers-check" id="american-crew" type="checkbox" checked>
-                    <label class="filters-manufacturers-name" for="american-crew">American-crew</label>
+                 <form class="filters" action="#" method="get">
+                    <h2 class="filters-head">Производители:</h2>
+                     
+                    <input id="baxter" type="checkbox" checked>
+                    <label for="baxter">Baxter of California</label>
+                    <input id="mr-natty" type="checkbox">
+                    <label for="mr-natty">MR Natty</label>
+                    <input id="suavecito" type="checkbox" checked>
+                    <label for="suavecito">Suavecito</label>
+                    <input id="malin+goetz" type="checkbox">
+                    <label for="malin+goetz">Malin+Goetz</label>
+                    <input id="murray's" type="checkbox">
+                    <label for="murray's">Murray's</label>
+                    <input id="american-crew" type="checkbox" checked>
+                    <label for="american-crew">American-crew</label>
+                     
+                    <h2 class="filters-head">Группы товаров:</h2>
+                
+                    <input id="shaving-accessories" name="product-groups" type="radio" value="shaving-accessories">
+                    <label for="shaving-accessories">Бритвенные принадлежности</label>
+                    <input id="preparations-care" name="product-groups" type="radio" value="preparations-care" checked>
+                    <label for="preparations-care">Средства для ухода</label>
+                    <input id="accessories" name="product-groups" type="radio" value="accessories">
+                    <label for="accessories">Аксессуары</label>
+                    
+                    <input type="submit" value="Показать">
                 </form>
-                <h2 class="filters-head">Группы товаров:</h2>
             </aside>
         </main>
     </body>
