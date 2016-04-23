@@ -3,24 +3,17 @@ body {
     font-size: 14px;
     font-weight: bold;
     line-height: 24px;
-    font-family: "PTSans", serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     text-transform: uppercase;
+    background-color: #070707;
 }
 
 h1 {
-    color: black;
     font-size: 30px;
-    font-weight: bold;
     line-height: 42px;
-    font-family: "PTSans", serif;
-    text-transform: uppercase;
 }
 
 h2 {
-    color: black;
     font-size: 30px;
-    font-weight: bold;
     line-height: 42px;
-    font-family: "PTSans", serif;
-    text-transform: uppercase;
 }
