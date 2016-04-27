@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 940px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .features {
-  margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .features-item {
@@ -130,7 +130,8 @@ body {
 
 .gallery {
     float: left;
-    width: 460px;
+    width: 470px;
+    margin: 0;
     
 }
 
@@ -143,16 +144,31 @@ body {
 .filters {
     float: left;
     width: 220px;
+    margin-right: 20px;
 }
 
 .products {
     float: right;
-    width: 710px;
+    width: 700px;
+    
 }
 
 .products-product {
     display: inline-block;
     width: 220px;
+    height: 280px;
+    vertical-align: top;
+    margin-right: 16px;
+    margin-bottom: 20px;
+}
+
+.products-product:nth-child(3),
+.products-product:nth-child(6) {
+    margin-right: 0;
+}
+
+.products-product figure {
+    margin: 0;
 }
 /*======================================
  Системное оформление - не изменять
