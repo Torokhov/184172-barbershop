@@ -20,32 +20,32 @@ h2 {
 
 html,
 body {
-  min-width: 1122px;
-  margin: 0;
-  padding: 0;
+    min-width: 1122px;
+    margin: 0;
+    padding: 0;
 }
 
 .clearfix::after {
-  content: "";
+    content: "";
 
-  display: table;
-  clear: both;
+    display: table;
+    clear: both;
 }
 
 .container {
-  width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .main-header {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .main-navigation {
-  float: left;
-  width: 780px;
-  min-height: 70px;
+    float: left;
+    width: 780px;
+    min-height: 70px;
 }
 
 .main-navigation li {
@@ -53,17 +53,17 @@ body {
 }
 
 .user-block {
-  float: right;
-  width: 140px;
-  min-height: 70px;
+    float: right;
+    width: 140px;
+    min-height: 70px;
 }
 
 .index-logo {
-  width: 368px;
-  min-height: 204px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 25px;
+    width: 368px;
+    min-height: 204px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
 }
 
 .features {
@@ -71,56 +71,56 @@ body {
 }
 
 .features-item {
-  float: left;
-  width: 300px;
-  min-height: 175px;
-  margin-right: 20px;
+    float: left;
+    width: 300px;
+    min-height: 175px;
+    margin-right: 20px;
 }
 
 .features-item:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .index-content {
-  margin-bottom: 35px;
-  padding: 50px 80px;
+    margin-bottom: 35px;
+    padding: 50px 80px;
 }
 
 .index-content-left {
-  float: left;
-  width: 380px;
-  min-height: 330px;
+    float: left;
+    width: 380px;
+    min-height: 330px;
 }
 
 .index-content-right {
-  float: right;
-  width: 300px;
-  min-height: 330px;
+    float: right;
+    width: 300px;
+    min-height: 330px;
 }
 
 .main-footer {
-  margin-top: 65px;
-  padding-top: 60px;
-  padding-bottom: 40px;
+    margin-top: 65px;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 .footer-contacts {
-  float: left;
-  width: 320px;
-  margin-right: 60px;
-  min-height: 90px;
+    float: left;
+    width: 320px;
+    margin-right: 60px;
+    min-height: 90px;
 }
 
 .footer-social {
-  float: left;
-  width: 180px;
-  min-height: 90px;
+    float: left;
+    width: 180px;
+    min-height: 90px;
 }
 
 .footer-copyright {
-  float: right;
-  width: 180px;
-  min-height: 90px;
+    float: right;
+    width: 180px;
+    min-height: 90px;
 }
 
 /*Catalog-item*/
@@ -150,7 +150,6 @@ body {
 .products {
     float: right;
     width: 700px;
-    
 }
 
 .products-product {
