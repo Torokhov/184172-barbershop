@@ -1,10 +1,12 @@
 body {
-    color: black;
+    min-width: 960px;
+    font-weight: 700;
     font-size: 14px;
-    font-weight: bold;
     line-height: 24px;
-    font-family: "PT Sans", "Arial", sans-serif;
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
     text-transform: uppercase;
+    color: white;
+    background: #000000 url("../img/trim.jpg") no-repeat center top;
 /*    background-color: #070707;*/
 }
 
@@ -16,13 +18,6 @@ h1 {
 h2 {
     font-size: 30px;
     line-height: 42px;
-}
-
-html,
-body {
-    min-width: 1122px;
-    margin: 0;
-    padding: 0;
 }
 
 .clearfix::after {
@@ -40,12 +35,21 @@ body {
 
 .main-header {
     margin-bottom: 60px;
+    
+    color: #ffffff;
+  
+    background-color: #000000;
 }
 
 .main-navigation {
     float: left;
     width: 780px;
     min-height: 70px;
+}
+
+.main-navigation a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .main-navigation li {
@@ -168,142 +172,4 @@ body {
 
 .products-product figure {
     margin: 0;
-}
-/*======================================
- Системное оформление - не изменять
-=======================================*/
-
-body {
-  padding: 3px;
-}
-
-body > *,
-body > * > *,
-body > * > * > * {
-  position: relative;
-}
-
-body > *::before,
-body > * > *::before,
-body > * > * > *::before {
-  display: none;
-}
-
-body > *::before {
-  top: -3px;
-  left: -3px;
-}
-
-body > * > *::before {
-  top: -3px;
-  left: -3px;
-}
-
-body > * > * > *::before {
-  top: 0;
-  left: 0;
-}
-
-body > * {
-  background: rgba(0, 128, 0, 0.2);
-  box-shadow: 0 0 0 3px green;
-}
-
-body > *::before {
-  color: white;
-
-  background: green;
-}
-
-body > * > * {
-  background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 45, 82);
-}
-
-body > * > *::before {
-  color: white;
-
-  background: rgb(255, 45, 82);
-}
-
-body > * > * > * {
-  background: rgba(234, 255, 45, 0.2);
-  box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
-
-}
-
-body > * > * > *::before {
-  color: black;
-
-  background: rgb(234, 255, 45);
-}
-
-.main-header::before {
-  content: ".main-header";
-}
-
-.container::before {
-  content: ".container";
-}
-
-.main-header .container::before {
-  top: auto;
-  bottom: -28px;
-}
-
-.main-navigation::before {
-  content: ".main-navigation";
-}
-
-.user-block::before {
-  content: ".user-block";
-}
-
-.index-logo::before {
-  content: ".index-logo";
-}
-
-.features::before {
-  content: ".features";
-  top: -28px;
-}
-
-.features-item::before {
-  content: ".features-item";
-}
-
-.index-content::before {
-  content: ".index-content";
-}
-
-.index-content-left::before {
-  content: ".index-content-left";
-  left: auto;
-  right: 0;
-}
-
-.index-content-right::before {
-  content: ".index-content-right";
-  left: auto;
-  right: 0;
-}
-
-.main-footer::before {
-  content: ".main-footer";
-}
-
-.main-footer .container::before {
-  top: -28px;
-}
-
-.footer-contacts::before {
-  content: ".footer-contacts";
-}
-
-.footer-social::before {
-  content: ".footer-social";
-}
-
-.footer-copyright::before {
-  content: ".footer-copyright";
 }
