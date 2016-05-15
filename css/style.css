@@ -43,23 +43,77 @@ h2 {
 
 .main-navigation {
     float: left;
+    
     width: 780px;
     min-height: 70px;
 }
 
 .main-navigation a {
-  color: #ffffff;
-  text-decoration: none;
+    padding-top: 25px;
+    padding-bottom: 28px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-navigation ul {
+    padding: 0;
+    margin: 0;
 }
 
 .main-navigation li {
     display: inline-block;
+    padding-top: 22px;
+    padding-bottom: 24px;
+    margin-right: -4px;
+}
+
+.main-navigation li:first-child {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-navigation li:nth-child(2) {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.main-navigation li:nth-child(3) {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.main-navigation li:nth-child(4) {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.main-navigation li:last-child {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.main-navigation li:hover {
+    background-color: #242424;
 }
 
 .user-block {
     float: right;
     width: 140px;
     min-height: 70px;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+
+.user-block a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 22px;
+    padding-bottom: 28px;
+    padding-left: 80px;
 }
 
 .index-logo {
