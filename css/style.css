@@ -254,6 +254,37 @@ h2 {
     padding: 0;
 }
 
+.appointment-form input[type="text"],
+.appointment-form input[type="tel"] {
+    display: inline-block;
+    width: 120px;
+    margin-right: 17px;
+    margin-bottom: 17px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+
+.appointment-form input[type="text"]:nth-child(2n),
+.appointment-form input[type="tel"] {
+    display: inline-block;
+    width: 120px;
+    margin-right: 0px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+
+.appointment-form button {
+    width: 300px;
+    text-transform: uppercase;
+    border: none;
+}
+
 .main-footer {
     margin-top: 65px;
     padding-top: 60px;
