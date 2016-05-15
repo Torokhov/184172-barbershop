@@ -94,11 +94,24 @@ h2 {
 }
 
 .main-header {
+    position: relative;
     margin-bottom: 60px;
     
     color: #ffffff;
   
     background-color: #000000;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 185px;
+    display: block;
+    width: 111px;
+    height: 24px;
+    font-size: 0;
+    background-image: url(../img/spritesheet.png);
+    background-position: -10px -10px;
 }
 
 .main-navigation {
@@ -137,6 +150,10 @@ h2 {
 .main-navigation li:first-child {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.catalog .main-navigation li:first-child {
+    margin-left: 150px;
 }
 
 .main-navigation li:nth-child(2) {
