@@ -573,6 +573,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+.breadscrumbs {
+    margin-bottom: 25px;
+}
+
 .breadscrumbs ul {
     position: relative;
     padding: 0;
@@ -623,10 +627,29 @@ h2 {
     margin-right: 20px;
 }
 
+.filters h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 28px;
+}
+
+.filters ul {
+    padding-left: 28px;
+    list-style: none;
+}
+
+.filters li {
+    margin-bottom: 13px;
+}
+
+.filters-makers {
+    margin-bottom: 45px;
+}
+
 .products {
     float: right;
     width: 700px;
-    margin-top: 40px;
+    margin-top: 28px;
 }
 
 .products-product {
@@ -713,4 +736,10 @@ a span {
 .product-navigation .active {
     color: black;
     background-color: white;
-} 
+}
+
+.catalog .main-footer {
+    margin-top: 50px;
+    color: white;
+}
+

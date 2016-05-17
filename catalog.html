@@ -35,31 +35,49 @@
                 </ul>
             </nav>
             <aside class="filters">
-                 <form class="filters" action="#" method="get">
+                <form class="filters-form" action="#" method="get">
                     <h2>Производители:</h2>
-                     
-                    <input id="baxter" type="checkbox" checked>
-                    <label for="baxter">Baxter of California</label>
-                    <input id="mr-natty" type="checkbox">
-                    <label for="mr-natty">MR Natty</label>
-                    <input id="suavecito" type="checkbox" checked>
-                    <label for="suavecito">Suavecito</label>
-                    <input id="malin+goetz" type="checkbox">
-                    <label for="malin+goetz">Malin+Goetz</label>
-                    <input id="murray's" type="checkbox">
-                    <label for="murray's">Murray's</label>
-                    <input id="american-crew" type="checkbox" checked>
-                    <label for="american-crew">American-crew</label>
-                     
+                    <ul class="filters-makers">
+                        <li>
+                            <input id="baxter" type="checkbox" checked>
+                            <label for="baxter">Baxter of California</label>
+                        </li>
+                        <li>
+                            <input id="mr-natty" type="checkbox">
+                            <label for="mr-natty">MR Natty</label>
+                        </li>
+                        <li>
+                            <input id="suavecito" type="checkbox" checked>
+                            <label for="suavecito">Suavecito</label>
+                        </li>
+                        <li>
+                            <input id="malin+goetz" type="checkbox">
+                            <label for="malin+goetz">Malin+Goetz</label>
+                        </li>
+                        <li>
+                            <input id="murray's" type="checkbox">
+                            <label for="murray's">Murray's</label>
+                        </li>
+                        <li>
+                            <input id="american-crew" type="checkbox" checked>
+                            <label for="american-crew">American-crew</label>
+                        </li>
+                    </ul>
                     <h2>Группы товаров:</h2>
-                
-                    <input id="shaving-accessories" name="product-groups" type="radio" value="shaving-accessories">
-                    <label for="shaving-accessories">Бритвенные принадлежности</label>
-                    <input id="preparations-care" name="product-groups" type="radio" value="preparations-care" checked>
-                    <label for="preparations-care">Средства для ухода</label>
-                    <input id="accessories" name="product-groups" type="radio" value="accessories">
-                    <label for="accessories">Аксессуары</label>
-                    
+                    <ul class="filters-products">
+                        <li>
+                            <input id="shaving-accessories" name="product-groups" type="radio" value="shaving-accessories">
+                            <label for="shaving-accessories">Бритвенные принадлежности</label>
+                        </li>
+                        <li>
+                            <input id="preparations-care" name="product-groups" type="radio" value="preparations-care" checked>
+                            <label for="preparations-care">Средства для ухода</label>
+                        </li>
+                        <li>
+                            <input id="accessories" name="product-groups" type="radio" value="accessories">
+                            <label for="accessories">Аксессуары</label>
+                        </li>
+                    </ul>
                     <input type="submit" value="Показать">
                 </form>
             </aside>
@@ -168,7 +186,7 @@
                 </nav>
             </section>
         </main>
-        <footer class="catalog-footer">
+       <footer class="main-footer">
             <div class="container clearfix">
                 <section class="footer-contacts">
                     Барбершоп «Бородинский»<br>
@@ -184,7 +202,7 @@
                 </section>
                 <section class="footer-copyright">
                     <p>Разработано:</p>
-                    <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+                    <a class="btn" href="https://htmlacademy.ru">HTML Academy.ru</a>
                 </section>
             </div>
         </footer>
