@@ -237,6 +237,7 @@ h2 {
     padding: 20px 80px;
     color: black;
     background-color: white;
+    background-image: url(../img/texture.png);
     z-index: 2;
 }
 
@@ -516,6 +517,12 @@ label:hover {
     padding-left: 15px;
     text-transform: uppercase;
     border: 2px solid black;
+    outline: none
+}
+
+.appointment-form input[type="text"]:focus,
+.appointment-form input[type="tel"]:focus {
+    border: 2px solid #663d15;
 }
 
 .appointment-form input[type="text"]:nth-child(2n),
