@@ -228,6 +228,143 @@ h2 {
     background-position: -48px -54px;
 }
 
+.enter-form {
+    position: absolute;
+    top: 120px;
+    left: 410px;
+    width: 300px;
+    height: 345px;
+    padding: 20px 80px;
+    color: black;
+    background-color: white;
+    z-index: 2;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: -34px;
+  width: 25px;
+  height: 25px;
+  font-size: 0;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.close::before,
+.close::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  width: 25px;
+  height: 5px;
+  background-color: #d0d0d0;
+  border-radius: 1px;
+}
+
+.close::before {
+  transform: rotate(45deg);
+}
+
+.close::after {
+  transform: rotate(-45deg);
+}
+
+.enter-form h2 {
+    margin-bottom: 10px;
+}
+
+.enter-form p {
+    margin-bottom: 10px;
+}
+
+.enter-form input[type="text"],
+.enter-form input[type="password"] {
+    padding: 8px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    width: 280px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    outline: none;
+}
+
+.enter-form input[type="text"]:focus,
+.enter-form input[type="password"]:focus {
+    border: 2px solid #663d15;
+}
+
+.enter-form input[type="checkbox"] {
+    display: none;
+    margin-right: 15px;
+}
+
+.enter-form input[type="checkbox"] + .checkbox-indicator {
+    position: absolute;
+    top: 245px;
+    width: 17px;
+    height: 17px;
+    border: 2px solid black;
+}
+
+.enter-form input[type="checkbox"]:checked + .checkbox-indicator::before,
+.enter-form input[type="checkbox"]:checked + .checkbox-indicator::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 1px;
+
+  width: 15px;
+  height: 2px;
+
+  background-color: #000000;
+}
+
+.enter-form input[type="checkbox"]:checked + .checkbox-indicator::before {
+  transform: rotate(45deg);
+}
+
+.enter-form input[type="checkbox"]:checked + .checkbox-indicator::after {
+  transform: rotate(-45deg);
+}
+
+label {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+label:hover {
+    color: #663d15;
+}
+.enter-form a {
+    margin-left: 72px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.enter-form a:hover {
+    color: #663d15;
+}
+
+.enter-form input[type="submit"] {
+    width: 300px;
+    padding: 10px 0;
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.enter-form input[type="submit"]:hover,
+.enter-form input[type="submit"]:active {
+    background-color: #663d15;
+}
+
 .index-logo {
     width: 368px;
     min-height: 204px;
