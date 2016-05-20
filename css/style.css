@@ -232,6 +232,7 @@ h2 {
     position: absolute;
     top: 120px;
     left: 410px;
+    display: none;
     width: 300px;
     height: 345px;
     padding: 20px 80px;
@@ -239,6 +240,26 @@ h2 {
     background-color: white;
     background-image: url(../img/texture.png);
     z-index: 2;
+}
+
+.enter-form-show {
+  display: block;
+  animation: form-animate 0.6s;
+}
+
+@keyframes form-animate {
+    0%   {
+        transform: translateY(-2000px);
+    }
+    70%  {
+        transform: translateY(30px);
+    }
+    90%  {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .close {
