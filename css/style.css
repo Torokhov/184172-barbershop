@@ -684,20 +684,81 @@ label:hover {
 }
 
 /*Catalog-item*/
+
 .breadscrumbs li {
     display: inline-block;
 }
 
+.catalog-item .breadscrumbs {
+    margin-bottom: 55px;
+}
+
 .gallery {
     float: left;
-    width: 470px;
+    width: 460px;
     margin: 0;
-    
+}
+
+.gallery img {
+    margin-right: 17px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 1, 1, 0.2);
+}
+
+.gallery img:first-child {
+    margin-bottom: 15px;
+    margin-right: 0;
+}
+
+.gallery img:last-child {
+    margin-right: 0;
 }
 
 .information {
     float: right;
     width: 390px;
+    padding-top: 17px;
+}
+
+.information-code {
+    float: right;
+    margin-right: 15px;
+}
+
+.information p {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.catalog-item .price {
+    margin-left: 0;
+    margin-bottom: 60px;
+}
+
+.information h2 {
+    margin-bottom: 29px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.set {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.set li {
+    position: relative;
+}
+
+.set li:before {
+    position: absolute;
+    transform: rotate(45deg);
+    left: -17px;
+    top: 7px;
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: black;
 }
 
 /*Catalog*/
@@ -749,6 +810,17 @@ label:hover {
     position: absolute;
     transform: rotate(45deg);
     left: 154px;
+    top: 8px;
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: black;
+}
+
+.breadscrumbs li:nth-child(3)::after {
+    position: absolute;
+    transform: rotate(45deg);
+    left: 312px;
     top: 8px;
     content: "";
     width: 7px;
@@ -897,7 +969,7 @@ label:hover {
     margin-right: 16px;
     margin-bottom: 20px;
     background-color: white;
-    box-shadow: 0 0 15px 0px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 1, 1, 0.2);
 }
 
 figcaption {
