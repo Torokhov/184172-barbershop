@@ -73,18 +73,21 @@
                     <ul class="filters-products">
                         <li>
                             <input id="shaving-accessories" name="product-groups" type="radio" value="shaving-accessories">
-                            <label for="shaving-accessories">Бритвенные принадлежности</label>
+                            <span class="radio-indicator"></span>
+                            <label for="shaving-accessories">Бритвенные<br> принадлежности</label>
                         </li>
                         <li>
                             <input id="preparations-care" name="product-groups" type="radio" value="preparations-care" checked>
+                            <span class="radio-indicator"></span>
                             <label for="preparations-care">Средства для ухода</label>
                         </li>
                         <li>
                             <input id="accessories" name="product-groups" type="radio" value="accessories">
+                            <span class="radio-indicator"></span>
                             <label for="accessories">Аксессуары</label>
                         </li>
                     </ul>
-                    <input type="submit" value="Показать">
+                    <a class="show-btn" href="#">Показать</a>
                 </form>
             </aside>
             <section class="products">
@@ -186,7 +189,7 @@
                 </article>
                 <nav class="product-navigation">
                     <a href="#">1</a>
-                    <a class="active" href="#">2</a>
+                    <a class="active">2</a>
                     <a href="#">3</a>
                     <a href="#">4</a>
                 </nav>

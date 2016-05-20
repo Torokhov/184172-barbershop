@@ -766,6 +766,7 @@ label:hover {
 }
 
 .filters {
+    position: relative;
     float: left;
     width: 220px;
     margin-right: 20px;
@@ -774,7 +775,7 @@ label:hover {
 .filters h2 {
     font-size: 24px;
     line-height: 30px;
-    margin-bottom: 28px;
+    margin-bottom: 30px;
 }
 
 .filters ul {
@@ -787,13 +788,105 @@ label:hover {
 }
 
 .filters-makers {
-    margin-bottom: 45px;
+    margin-bottom: 50px;
+}
+
+.filters-form label {
+    display: block;
+    padding-top: 3px;
+    margin-left: 15px;
+    margin-bottom: 16px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.filters-products label {
+    padding-top: 0;
+}
+
+.filters-makers input[type="checkbox"] {
+    display: none;
+}
+
+.filters-makers input[type="checkbox"] + .checkbox-indicator {
+    position: absolute;
+    left: 0px;
+    width: 17px;
+    height: 17px;
+    border: 2px solid black;
+}
+
+.filters-makers input[type="checkbox"]:checked + .checkbox-indicator::before,
+.filters-makers input[type="checkbox"]:checked + .checkbox-indicator::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 1px;
+
+  width: 15px;
+  height: 2px;
+
+  background-color: #000000;
+}
+
+.filters-makers input[type="checkbox"]:checked + .checkbox-indicator::before {
+  transform: rotate(45deg);
+}
+
+.filters-makers input[type="checkbox"]:checked + .checkbox-indicator::after {
+  transform: rotate(-45deg);
+}
+
+.filters-products input[type="radio"] {
+    display: none;
+}
+
+.filters-products input[type="radio"] + .radio-indicator {
+    position: absolute;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.filters-products input[type="radio"]:checked + .radio-indicator::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.show-btn {
+    display: block;
+    margin-top: 55px;
+    padding: 10px 0;
+    width: 112px;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
 }
 
 .products {
     float: right;
     width: 700px;
     margin-top: 28px;
+}
+
+.show-btn:hover,
+.show-btn:active,
+.buy:active,
+.buy:hover,
+.product-navigation a:hover,
+.product-navigation a:active
+{
+    background-color: #663d15;
 }
 
 .products-product {
